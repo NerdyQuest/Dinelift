@@ -1,0 +1,41 @@
+/* Some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f8fc31, #ff9010);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  flex-basis: calc(40% - 10px);
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
